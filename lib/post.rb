@@ -4,14 +4,14 @@ class Post
   @@all = []
 
   def initialize(title)
-    save 
-  end 
+    save
+  end
 
-  def save 
-    @@all << self 
-  end 
+  def save
+    @@all << self
+  end
 
-  def self.all 
-    @@all 
-  end 
+  def self.all
+    @@all
+  end
 end
